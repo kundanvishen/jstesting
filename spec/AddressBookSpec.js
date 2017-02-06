@@ -4,6 +4,7 @@ describe('Address Book', function() {
         thisContact = new Contact();
     addressBook.addContact(thisContact);
 
+    // test comment
     expect(addressBook.getContact(0)).toBe(thisContact);
   });
 });
